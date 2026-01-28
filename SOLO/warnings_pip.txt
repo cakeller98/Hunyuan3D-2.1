@@ -1,0 +1,2 @@
+warning: `transformers==4.46.0` is yanked (reason: "This version unfortunately does not work with 3.8 but we did not drop the support yet ")
+warning: `configargparse==1.7` is yanked (reason: "incorrect metadata related to supported python versions")

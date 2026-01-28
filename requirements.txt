@@ -52,8 +52,8 @@ psutil==6.0.0
 # GPU Computing (requires CUDA)
 cupy-cuda12x==13.4.1
 
-# Blender
-bpy==4.0
+# Blender (stub for type hints; use Blender's Python for real bpy)
+fake-bpy-module-4.1==20250130
 
 # ONNX Runtime
 onnxruntime==1.16.3
@@ -64,5 +64,5 @@ pydantic==2.10.6
 timm
 pythreejs
 torchdiffeq
-deepspeed
+# deepspeed since we're not trainint
 
